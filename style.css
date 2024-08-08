@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box  ;
+}
+header{
+  display: flex;
+  height: 10vh;
+  /* background-color: rgb(255, 255, 255); */
+  align-items: center;
+  box-shadow: 2px 2px;
+}
+.search-container {
+  position: relative;
+  width: 300px;
+}
+.search-container input {
+  width: 100%;
+  padding: 10px 10px 10px 40px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+}
+
+.search-container .search-icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: #aaa;
+}
+.logo h2{
+  font-size: 20px;
+    align-items: center;
+    display: flex;
+}
+.product-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 15px;
+}
+.card{
+ border: 2px solid black;
+  border-radius: 12px !important;
+  height: 60vh;
+}
+.card-img-top{
+padding: 2px;
+border-radius: 14px;
+padding: 2px;
+width: 59%;
+border-radius: 14px;
+height: 40vh;
+}
+.card-title{
+  font-size: 14px;
+  font-weight: 600;
+}
+body {
+  background-color: #000; /* Black background */
+  color: #fff; /* White text */
+}
+
+#typing-heading {
+  font-family: Arial, sans-serif;
+  /* margin: 5% 0 % 0; */
+  font-size: 2em;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: .15em solid black;
+  animation: caret 0.75s step-end infinite;
+}
+
+@keyframes caret {
+  from, to {
+      border-color: transparent;
+  }
+  50% {
+      border-color: black;
+  }
+}
+.head-ul{
+  margin: 10px 0;
+  list-style:none ;
+  display: flex;
+  align-items:center ;
+  justify-content: space-between;
+}
